@@ -114,17 +114,23 @@ This tour uses a practice project. Menu names may differ in your version.
 
 1. Log in to your institution's REDCap site. You land on **My Projects**, the list of projects you can access.
 
-   > 📷 **Screenshot to insert:** My Projects page with the project list and the New Project button visible.
+   > 📷 **Figure 1:** My Projects page (schematic). Find (1) the New Project button and (2) the project list.
+
+   ![Schematic of the My Projects page: (1) New Project button, (2) project list](images/M01_fig01_my_projects.png)
 
 2. Select **New Project**. Enter the title "FEVER-COHORT Practice". Choose the purpose **Practice / Just for fun**.
 3. For the starting template, choose **Empty project (create fields from scratch)**. Select **Create Project**.
 4. You arrive at **Project Home**. Note the project title, the status label (Development) and the summary of project information.
 
-   > 📷 **Screenshot to insert:** Project Home page with the status label and the left menu both visible.
+   > 📷 **Figure 2:** Project Home page (schematic). Find (1) the status label and (2) the left menu.
+
+   ![Schematic of the Project Home page: (1) status label, (2) left menu](images/M01_fig02_project_home.png)
 
 5. Open **Project Setup**. Read the three blocks: main project settings, optional modules and settings, and the section on designing data collection instruments. At the bottom is the status box with the button to move the project to Production. Do not select it.
 
-   > 📷 **Screenshot to insert:** Project Setup page with the "Move project to production" area highlighted.
+   > 📷 **Figure 3:** Project Setup page (schematic). Find (1) the Move project to production button. Do not select it in a practice project.
+
+   ![Schematic of the Project Setup page: (1) Move project to production button](images/M01_fig03_project_setup.png)
 
 6. Read the left menu. Typical groups are Project Home and Design, Data Collection, Applications, and project administration items. Find **Record Status Dashboard**, **Add / Edit Records**, **Data Dictionary** and **Codebook**. Verify in your REDCap instance where each item sits.
 7. Open **Online Designer** from Project Setup and note that the project is empty. You will add fields in Module 3.
@@ -478,17 +484,23 @@ Status အမည်တွေနဲ့ အတိအကျ အပြုအမူ�
 
 1. သင့်အဖွဲ့အစည်းရဲ့ REDCap ဆိုက်ကို login ဝင်ပါ။ သင် ဝင်ခွင့်ရှိတဲ့ ပရောဂျက်စာရင်းဖြစ်တဲ့ **My Projects** ကို ရောက်ပါလိမ့်မယ်။
 
-   > 📷 **Screenshot to insert:** ပရောဂျက်စာရင်းနဲ့ New Project ခလုတ် မြင်ရတဲ့ My Projects စာမျက်နှာ။
+   > 📷 **ပုံ 1:** My Projects စာမျက်နှာ (ပုံကြမ်း)။ (1) New Project ခလုတ်နဲ့ (2) ပရောဂျက်စာရင်းကို ရှာပါ။
+
+   ![My Projects စာမျက်နှာ ပုံကြမ်း: (1) New Project ခလုတ်၊ (2) ပရောဂျက်စာရင်း](images/M01_fig01_my_projects.png)
 
 2. **New Project** ကို ရွေးပါ။ ခေါင်းစဉ်ကို "FEVER-COHORT Practice" လို့ ထည့်ပါ။ ရည်ရွယ်ချက်ကို **Practice / Just for fun** ရွေးပါ။
 3. စတင်မည့် template အတွက် **Empty project (create fields from scratch)** ကို ရွေးပါ။ ပြီးရင် **Create Project** ကို ရွေးပါ။
 4. **Project Home** ကို ရောက်ပါမယ်။ ပရောဂျက်ခေါင်းစဉ်၊ status အမှတ်အသား (Development) နဲ့ ပရောဂျက်အချက်အလက် အကျဉ်းချုပ်ကို သတိပြုပါ။
 
-   > 📷 **Screenshot to insert:** Status အမှတ်အသားနဲ့ ဘယ်ဘက်မီနူး နှစ်ခုလုံး မြင်ရတဲ့ Project Home စာမျက်နှာ။
+   > 📷 **ပုံ 2:** Project Home စာမျက်နှာ (ပုံကြမ်း)။ (1) Status အမှတ်အသားနဲ့ (2) ဘယ်ဘက်မီနူးကို ရှာပါ။
+
+   ![Project Home စာမျက်နှာ ပုံကြမ်း: (1) Status အမှတ်အသား၊ (2) ဘယ်ဘက်မီနူး](images/M01_fig02_project_home.png)
 
 5. **Project Setup** ကို ဖွင့်ပါ။ အဓိက ပရောဂျက်ဆက်တင်များ၊ ရွေးချယ်နိုင်တဲ့ module တွေနဲ့ ဆက်တင်များ၊ ဒေတာစုဆောင်းရေး instrument တွေ ဒီဇိုင်းလုပ်တဲ့ အပိုင်းဆိုပြီး အပိုင်းသုံးခုကို ဖတ်ပါ။ အောက်ဆုံးမှာ ပရောဂျက်ကို Production သို့ ပြောင်းတဲ့ ခလုတ်ပါတဲ့ status ဘောက်စ် ရှိပါတယ်။ အဲဒါကို မရွေးပါနဲ့။
 
-   > 📷 **Screenshot to insert:** "Move project to production" နေရာကို အလေးပေးပြထားတဲ့ Project Setup စာမျက်နှာ။
+   > 📷 **ပုံ 3:** Project Setup စာမျက်နှာ (ပုံကြမ်း)။ (1) Move project to production ခလုတ်ကို ရှာပါ။ လေ့ကျင့်ရေးပရောဂျက်မှာ မရွေးပါနဲ့။
+
+   ![Project Setup စာမျက်နှာ ပုံကြမ်း: (1) Move project to production ခလုတ်](images/M01_fig03_project_setup.png)
 
 6. ဘယ်ဘက်မီနူးကို ဖတ်ပါ။ ပုံမှန်အားဖြင့် Project Home and Design၊ Data Collection၊ Applications နဲ့ ပရောဂျက်စီမံခန့်ခွဲရေး ပစ္စည်းတွေ ပါပါတယ်။ **Record Status Dashboard**၊ **Add / Edit Records**၊ **Data Dictionary** နဲ့ **Codebook** ကို ရှာပါ။ ပစ္စည်းတစ်ခုချင်း ဘယ်မှာရှိလဲဆိုတာ Verify in your REDCap instance။
 7. Project Setup ကနေ **Online Designer** ကို ဖွင့်ပြီး ပရောဂျက်က အလွတ်ဖြစ်နေတာကို သတိပြုပါ။ Fields တွေကို Module 3 မှာ ထည့်ပါမယ်။
