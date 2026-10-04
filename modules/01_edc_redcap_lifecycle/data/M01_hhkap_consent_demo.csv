@@ -1,0 +1,7 @@
+Variable / Field Name,Form Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Identifier?,Branching Logic (Show field only if...),Required Field?,Custom Alignment,Question Number (surveys only),Matrix Group Name,Matrix Ranking?,Field Annotation
+record_id,hhkap_survey,Consent and background,text,Record ID,,,,,,,,,,,,,
+consent,hhkap_survey,,radio,I agree to take part in this survey.,"1, Yes | 0, No",,,,,,,y,,,,,
+hcw_role,hhkap_survey,,dropdown,Your role,"1, Doctor | 2, Nurse | 3, Allied health | 4, Other",,,,,,[consent] = '1',y,,,,,
+years_exp,hhkap_survey,,text,Years of experience in healthcare,,,integer,0,60,,[consent] = '1',y,,,,,
+kap_k1,hhkap_survey,Knowledge,radio,Alcohol-based hand rub is as effective as hand washing when hands are not visibly soiled.,"1, True | 0, False | 2, Not sure",,,,,,[consent] = '1',y,,,,,
+kap_k2,hhkap_survey,,radio,Hands should be cleaned before touching a patient.,"1, True | 0, False | 2, Not sure",,,,,,[consent] = '1',y,,,,,

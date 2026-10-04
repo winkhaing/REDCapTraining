@@ -1,0 +1,16 @@
+title: "REDCap for Researchers"
+description: "A bilingual (English and Burmese) self-paced course on REDCap, from first project to confident practitioner."
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+relative_links:
+  enabled: true
+  collections: false
+optional_front_matter:
+  enabled: true
+  remove_originals: true
+exclude:
+  - REDCap_Training_version_log.md
