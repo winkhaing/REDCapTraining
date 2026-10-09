@@ -358,7 +358,7 @@ Open CSV files in a text editor or import them as UTF-8 text so that values are 
 
 ### 13. Next module
 
-Next: Module 2, Planning before building.
+Next: [Module 2, Planning before building](../02_planning_before_building/Module_02_planning_before_building.md).
 
 Topics: protocol to data collection schedule to CRF to variable list, naming and coding conventions, and a draft data dictionary.
 
@@ -728,7 +728,7 @@ C။ Harris et al. 2009 နဲ့ Harris et al. 2019 နှစ်ခုလုံ
 
 ### 13. နောက်မော်ဂျူး (Next module)
 
-နောက်မော်ဂျူး: Module 2၊ တည်ဆောက်မီ စီစဉ်ခြင်း (Planning before building)။
+နောက်မော်ဂျူး: [Module 2၊ တည်ဆောက်မီ စီစဉ်ခြင်း (Planning before building)](../02_planning_before_building/Module_02_planning_before_building.md)။
 
 ခေါင်းစဉ်များ: protocol ကနေ ဒေတာစုဆောင်းမည့် အချိန်ဇယား၊ CRF၊ variable စာရင်းအထိ၊ အမည်ပေးခြင်းနဲ့ ကုဒ်သတ်မှတ်ခြင်း စံနှုန်းများ၊ data dictionary မူကြမ်း။
 

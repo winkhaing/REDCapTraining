@@ -1,0 +1,15 @@
+Variable / Field Name,Form Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Identifier?,Branching Logic (Show field only if...),Required Field?,Custom Alignment,Question Number (surveys only),Matrix Group Name,Matrix Ranking?,Field Annotation
+record_id,enrolment,Enrolment,text,Record ID,,,,,,,,,,,,,
+enrol_date,enrolment,,text,Date of enrolment,,,date_ymd,,,y,,y,,,,,
+dob,enrolment,,text,Date of birth,,,date_ymd,,,y,,y,,,,,
+age_years,enrolment,,calc,Age at enrolment (years),"rounddown(datediff([dob], [enrol_date], ""y"", ""ymd"", true), 0)",Calculated. Do not type.,,,,,,,,,,,Derived from dob and enrol_date
+sex,enrolment,,radio,Sex,"1, Female | 2, Male | 99, Unknown",,,,,,,y,,,,,
+onset_date,enrolment,,text,Date of fever onset,,,date_ymd,,,y,,y,,,,,
+fever_days,enrolment,,calc,Days from fever onset to enrolment,"datediff([onset_date], [enrol_date], ""d"", ""ymd"", true)",Calculated. Do not type.,,,,,,,,,,,Derived from onset_date and enrol_date
+temp_c,clinical_lab,Baseline clinical and laboratory data,text,Body temperature (degrees Celsius),,Enter a number such as 38.5,number,34,42,,,y,,,,,
+wbc,clinical_lab,,text,White cell count (x10^9/L),,,number,0.1,100,,,,,,,,
+hct,clinical_lab,,text,Haematocrit (%),,,number,10,70,,,,,,,,
+plt,clinical_lab,,text,Platelet count (x10^9/L),,Enter whole numbers only,integer,1,1500,,,,,,,,
+hosp_admit,clinical_lab,,yesno,Admitted to hospital at baseline?,,,,,,,,y,,,,,
+outcome_d28,outcome,Day 28 outcome,radio,Status at day 28,"1, Alive and well | 2, Alive with ongoing symptoms | 3, Died | 99, Unknown",,,,,,,,,,,,
+contact_phone,contact,Contact details (restricted),text,Contact telephone number,,Synthetic number only in practice projects,,,,y,,,,,,,

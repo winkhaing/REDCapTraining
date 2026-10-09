@@ -15,7 +15,7 @@ Read the modules on GitHub, or import each module `.md` file into Notion (Import
 | No. | Module | Level | Time | Status |
 |-----|--------|-------|------|--------|
 | 1 | [EDC concepts, REDCap ecosystem, data management lifecycle](modules/01_edc_redcap_lifecycle/Module_01_edc_redcap_lifecycle.md) | Beginner | 45 to 60 min | Published |
-| 2 | Planning before building | Beginner | 45 to 60 min | Planned |
+| 2 | [Planning before building](modules/02_planning_before_building/Module_02_planning_before_building.md) | Beginner | 45 to 60 min | Published |
 | 3 | Creating a project, Online Designer, instruments and field types | Beginner | 45 to 60 min | Planned |
 | 4 | Field validation, branching logic, calculated fields | Beginner to Intermediate | 45 to 60 min | Planned |
 | 5 | Piping, Smart Variables, action tags, field embedding | Intermediate | 45 to 60 min | Planned |
@@ -46,14 +46,26 @@ REDCapTraining/
 ├── .gitattributes
 ├── _config.yml
 └── modules/
-    └── 01_edc_redcap_lifecycle/
-        ├── Module_01_edc_redcap_lifecycle.md
-        └── data/
-            ├── M01_fever_cohort_baseline.csv
-            └── M01_hhkap_consent_demo.csv
+    ├── 01_edc_redcap_lifecycle/
+    │   ├── Module_01_edc_redcap_lifecycle.md
+    │   ├── data/
+    │   │   ├── M01_fever_cohort_baseline.csv
+    │   │   └── M01_hhkap_consent_demo.csv
+    │   └── images/
+    │       ├── M01_fig01_my_projects.png
+    │       ├── M01_fig02_project_home.png
+    │       └── M01_fig03_project_setup.png
+    └── 02_planning_before_building/
+        ├── Module_02_planning_before_building.md
+        ├── data/
+        │   ├── M02_fever_cohort_planned.csv
+        │   └── M02_htn_app_draft_flawed.csv
+        └── images/
+            ├── M02_fig01_data_dictionary_upload.png
+            └── M02_fig02_designer_variable_names.png
 ```
 
-Each module folder holds the module file, a `data/` folder when the module has CSV files, and a `scripts/` folder when it has runnable code.
+Each module folder holds the module file, a `data/` folder when the module has CSV files, an `images/` folder when it has figures, and a `scripts/` folder when it has runnable code.
 
 ## Licence
 
