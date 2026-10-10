@@ -345,7 +345,7 @@ Open CSV files in a text editor or import them as UTF-8 text so that values are 
 
 ### 13. Next module
 
-Next: Module 3, Creating a project, Online Designer, instruments and field types.
+Next: [Module 3, Creating a project, Online Designer, instruments and field types](../03_project_designer_field_types/Module_03_project_designer_field_types.md).
 
 Topics: creating a project, the Project Setup checklist, instruments, field types and the record identifier.
 
@@ -702,7 +702,7 @@ B. စာရွက်ဖောင်ကို ပြင်ရတာ မိနစ
 
 ### 13. နောက်မော်ဂျူး (Next module)
 
-နောက်မော်ဂျူး: Module 3၊ ပရောဂျက်ဖန်တီးခြင်း၊ Online Designer၊ instruments နဲ့ field types (Creating a project, Online Designer, instruments and field types)။
+နောက်မော်ဂျူး: [Module 3၊ ပရောဂျက်ဖန်တီးခြင်း၊ Online Designer၊ instruments နဲ့ field types (Creating a project, Online Designer, instruments and field types)](../03_project_designer_field_types/Module_03_project_designer_field_types.md)။
 
 ခေါင်းစဉ်များ: ပရောဂျက်ဖန်တီးခြင်း၊ Project Setup စစ်ရင်းစာရင်း၊ instruments၊ field types နဲ့ record identifier။
 

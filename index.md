@@ -12,7 +12,7 @@ A self-paced, bilingual (English and Burmese) course of 20 modules on REDCap, fr
 |-----|--------|-------|------|--------|
 | 1 | [EDC concepts, REDCap ecosystem, data management lifecycle](modules/01_edc_redcap_lifecycle/Module_01_edc_redcap_lifecycle.md) | Beginner | 45 to 60 min | Published |
 | 2 | [Planning before building](modules/02_planning_before_building/Module_02_planning_before_building.md) | Beginner | 45 to 60 min | Published |
-| 3 | Creating a project, Online Designer, instruments and field types | Beginner | 45 to 60 min | Planned |
+| 3 | [Creating a project, Online Designer, instruments and field types](modules/03_project_designer_field_types/Module_03_project_designer_field_types.md) | Beginner | 45 to 60 min | Published |
 | 4 | Field validation, branching logic, calculated fields | Beginner to Intermediate | 45 to 60 min | Planned |
 | 5 | Piping, Smart Variables, action tags, field embedding | Intermediate | 45 to 60 min | Planned |
 | 6 | Data dictionary workflow, Project XML, Shared Library, templates, version control | Intermediate | 45 to 60 min | Planned |
