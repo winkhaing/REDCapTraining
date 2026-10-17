@@ -346,7 +346,7 @@ Open CSV files in a text editor or import them as UTF-8 text so that values are 
 
 ### 13. Next module
 
-Next: Module 4, Field validation, branching logic, calculated fields.
+Next: [Module 4, Field validation, branching logic, calculated fields](../04_validation_branching_calc/Module_04_validation_branching_calc.md).
 
 Topics: text validation, hard and soft limits, branching logic syntax and calculated fields such as age and BMI.
 
@@ -704,7 +704,7 @@ C. 0 က Incomplete၊ 1 က Unverified၊ 2 က Complete ပါ။
 
 ### 13. နောက်မော်ဂျူး (Next module)
 
-နောက်မော်ဂျူး: Module 4၊ Field validation, branching logic, calculated fields (field စစ်ဆေးမှု၊ ခွဲထွက်ယုတ္တိဗေဒနဲ့ တွက်ချက်တဲ့ field များ)။
+နောက်မော်ဂျူး: [Module 4၊ field စစ်ဆေးမှု၊ branching logic နဲ့ calculated field များ (Field validation, branching logic, calculated fields)](../04_validation_branching_calc/Module_04_validation_branching_calc.md)။
 
 ခေါင်းစဉ်များ: text validation၊ hard နဲ့ soft limit တွေ၊ branching logic syntax နဲ့ အသက်၊ BMI လို calculated field တွေ။
 

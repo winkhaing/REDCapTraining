@@ -17,7 +17,7 @@ Read the modules on GitHub, or import each module `.md` file into Notion (Import
 | 1 | [EDC concepts, REDCap ecosystem, data management lifecycle](modules/01_edc_redcap_lifecycle/Module_01_edc_redcap_lifecycle.md) | Beginner | 45 to 60 min | Published |
 | 2 | [Planning before building](modules/02_planning_before_building/Module_02_planning_before_building.md) | Beginner | 45 to 60 min | Published |
 | 3 | [Creating a project, Online Designer, instruments and field types](modules/03_project_designer_field_types/Module_03_project_designer_field_types.md) | Beginner | 45 to 60 min | Published |
-| 4 | Field validation, branching logic, calculated fields | Beginner to Intermediate | 45 to 60 min | Planned |
+| 4 | [Field validation, branching logic, calculated fields](modules/04_validation_branching_calc/Module_04_validation_branching_calc.md) | Beginner to Intermediate | 45 to 60 min | Published |
 | 5 | Piping, Smart Variables, action tags, field embedding | Intermediate | 45 to 60 min | Planned |
 | 6 | Data dictionary workflow, Project XML, Shared Library, templates, version control | Intermediate | 45 to 60 min | Planned |
 | 7 | Data entry, record status, data quality | Intermediate | 45 to 60 min | Planned |
@@ -63,16 +63,26 @@ REDCapTraining/
     │   └── images/
     │       ├── M02_fig01_data_dictionary_upload.png
     │       └── M02_fig02_designer_variable_names.png
-    └── 03_project_designer_field_types/
-        ├── Module_03_project_designer_field_types.md
+    ├── 03_project_designer_field_types/
+    │   ├── Module_03_project_designer_field_types.md
+    │   ├── data/
+    │   │   ├── M03_fever_cohort_field_types.csv
+    │   │   └── M03_hhkap_matrix_demo.csv
+    │   └── images/
+    │       ├── M03_fig01_create_project.png
+    │       ├── M03_fig02_designer_add_field.png
+    │       ├── M03_fig03_add_field_dialog.png
+    │       └── M03_fig04_checkbox_export.png
+    └── 04_validation_branching_calc/
+        ├── Module_04_validation_branching_calc.md
         ├── data/
-        │   ├── M03_fever_cohort_field_types.csv
-        │   └── M03_hhkap_matrix_demo.csv
+        │   ├── M04_fever_cohort_validation.csv
+        │   └── M04_validation_logic_flawed.csv
         └── images/
-            ├── M03_fig01_create_project.png
-            ├── M03_fig02_designer_add_field.png
-            ├── M03_fig03_add_field_dialog.png
-            └── M03_fig04_checkbox_export.png
+            ├── M04_fig01_field_validation.png
+            ├── M04_fig02_branching_logic.png
+            ├── M04_fig03_calculated_field.png
+            └── M04_fig04_logic_test_record.png
 ```
 
 Each module folder holds the module file, a `data/` folder when the module has CSV files, an `images/` folder when it has figures, and a `scripts/` folder when it has runnable code.

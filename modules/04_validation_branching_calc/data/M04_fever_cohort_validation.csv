@@ -1,0 +1,26 @@
+Variable / Field Name,Form Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Identifier?,Branching Logic (Show field only if...),Required Field?,Custom Alignment,Question Number (surveys only),Matrix Group Name,Matrix Ranking?,Field Annotation
+record_id,enrolment,Enrolment,text,Record ID,,,,,,,,,,,,,
+enrol_date,enrolment,,text,Date of enrolment,,,date_ymd,,,y,,y,,,,,
+dob,enrolment,,text,Date of birth,,,date_ymd,,,y,,y,,,,,
+age_years,enrolment,,calc,Age at enrolment (years),"rounddown(datediff([dob], [enrol_date], ""y"", ""ymd"", true), 0)",Calculated. Do not type.,,,,,,,,,,,Derived from dob and enrol_date
+sex,enrolment,,radio,Sex,"1, Female | 2, Male | 99, Unknown",,,,,,,y,,,,,
+onset_date,enrolment,,text,Date of fever onset,,,date_ymd,,,y,,y,,,,,
+fever_days,enrolment,,calc,Days from fever onset to enrolment,"datediff([onset_date], [enrol_date], ""d"", ""ymd"", true)",Calculated. Do not type.,,,,,,,,,,,Derived from onset_date and enrol_date
+consent_confirm,enrolment,,truefalse,Written consent was obtained before any study procedure.,,,,,,,,y,,,,,
+eligible,enrolment,,calc,"Eligible for the cohort (1 = yes, 0 = no)","if([age_years] >= 18, if([fever_days] <= 7, if([consent_confirm] = 1, 1, 0), 0), 0)","Calculated. Age 18 or older, fever for 7 days or less, consent confirmed.",,,,,,,,,,,Eligibility flag
+contact_email,enrolment,,text,Contact email (synthetic examples only),,Use a synthetic address such as name@example.org,email,,,y,,,,,,,
+temp_c,clinical_lab,Baseline clinical and laboratory data,text,Body temperature (degrees Celsius),,Enter a number such as 38.5,number,34,42,,,y,,,,,
+wbc,clinical_lab,,text,White cell count (x10^9/L),,Enter a number such as 6.5,number,0.5,100,,,,,,,,
+hct,clinical_lab,,text,Haematocrit (%),,Enter a number such as 42,number,15,65,,,,,,,,
+plt,clinical_lab,,text,Platelet count (x10^9/L),,Enter whole numbers only,integer,1,1500,,,,,,,,
+height_cm,clinical_lab,,text,Height (cm),,,integer,100,220,,,,,,,,
+weight_kg,clinical_lab,,text,Weight (kg),,,number,25,250,,,,,,,,
+bmi,clinical_lab,,calc,Body mass index (kg/m^2),"round([weight_kg] / (([height_cm] / 100) * ([height_cm] / 100)), 1)",Calculated. Do not type.,,,,,,,,,,,Derived from weight_kg and height_cm
+symptoms,clinical_lab,,checkbox,Symptoms at baseline (tick all that apply),"1, Headache | 2, Muscle pain | 3, Rash | 4, Vomiting | 5, Bleeding",,,,,,,,,,,,
+bleed_site,clinical_lab,,text,Site of bleeding,,,,,,,[symptoms(5)] = '1',,,,,,Shown only if Bleeding is ticked
+hosp_admit,clinical_lab,,yesno,Admitted to hospital at baseline?,,,,,,,,y,,,,,
+admit_date,clinical_lab,,text,Date of hospital admission,,,date_ymd,,,y,[hosp_admit] = '1',,,,,,Shown only if admitted
+icu_stay,clinical_lab,,yesno,Admitted to intensive care?,,,,,,,[hosp_admit] = '1',,,,,,
+icu_days,clinical_lab,,text,Days in intensive care,,,integer,1,60,,[hosp_admit] = '1' and [icu_stay] = '1',,,,,,Shown only if admitted and in intensive care
+outcome_d28,outcome,Day 28 outcome,dropdown,Status at day 28,"1, Alive and well | 2, Alive with ongoing symptoms | 3, Died | 99, Unknown",,,,,,,y,,,,,
+death_date,outcome,,text,Date of death,,,date_ymd,,,y,[outcome_d28] = '3',,,,,,
